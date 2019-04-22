@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shashwat's Resume</title>
+    <link rel="shortcut icon" href="logo.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Vaibhav Mehra" />
+  <meta name="description" content="Portfolio website" />
+  <meta name="keywords" content="html,css,js,web design,layout,flexbox,grid" />
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header -->
+  <header id="my-header">
+    <ul class="hr-list center nav-list">
+      <li><a href="#">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#workexp">Education</a></li>
+      <li><a href="#education">Courses</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div id="my-name" class="center">
+      <h1>Shashwat Sharma</h1>
+    </div>
+    <div id="about-img">
+      <img src="./shashwat.jpg" alt="Shashwat Sharma" />
+    </div>
+    <ul class="hr-list center social-list">
+      <li>
+        <a href="https://medium.com/@star1shashwat" target="_blank"><i class="fab fa-medium"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/imsashwat" target="_blank"><i class="fab fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/shashwat-sharma-453468130/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+
+    <div id="about-para" class="container">
+      <p>
+        Hi, I am <span class="highlight">Shashwat Sharma</span>, a CSE student
+        from
+        <span class="highlight">Dronacharya College of Engineering</span>.
+        I live in India and love to create amazing web based apps.
+        Apart from coding, I
+        <span class="heart">&hearts;</span> to play Cricket & Badminton.
+      </p>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <section id="skills">
+      <div class="section-heading mb75">
+        <span><i class="fas fa-chalkboard-teacher"></i></span>
+        <span>SKILLS</span>
+      </div>
+      <div class="container skill-box mb75">
+        <div class="skill-progress">
+          <div class="skill-detail wid90">
+            C/C++ with DS & Algo
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="skill-detail wid80">
+            Javascript
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="skill-detail wid70">
+            node.js
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="skill-detail wid70">
+            express.js
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="skill-detail wid60">
+            MySQL
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div class="skill-detail wid70">
+            HTML & CSS
+          </div>
+        </div>
+        <!-- <div class="skill-progress">
+               <div class="skill-detail wid75">
+                  ES6
+               </div>
+            </div> -->
+      </div>
+    </section>
+    <!-- Work Exp -->
+    <section id="workexp">
+      <div class="section-heading mb75">
+        <span><i class="fas fa-briefcase"></i></span>
+        <span>Education</span>
+      </div>
+      <div class="container timeline mb75">
+        <div class="timeline-box">
+          <b>2016-2020</b><span class="timeline-heading">Dronacharya College Of Engineering</span>
+          <span class="company-name">Computer Science Engineering</span>
+          <span class="desc">Here i am doing my bachelors in Computer Science, where i
+              am gaining knowledge of design, implementation of both hardware and software.
+          </span>
+        </div>
+        <div class="timeline-box">
+            <b>2014-2016</b><span class="timeline-heading">Kamal Public School</span>
+          <span class="company-name">High School & Intermediate</span>
+          <span class="desc">I did my High school(10th) in 2014 and Intermediate(12th) with
+              Physics, chemistry and Mathematics in 2016
+              with good marks.
+          </span>
+        </div>
+        <div class="divider">
+          <div class="divider-planner">
+            <i class="fas fa-motorcycle"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+      <div class="section-heading mb75">
+        <span><i class="fas fa-university"></i></span>
+        <span>Certifications & Courses</span>
+      </div>
+      <div class="container timeline mb75">
+        <div class="timeline-box">
+        <b>Aug,2018</b><span class="timeline-heading">Full Stack Development with Node.js</span>
+        <span class="company-name">Coding Blocks</span>
+        </div>
+        <div class="timeline-box">
+        <b>Aug,2017</b><span class="timeline-heading">C++ with Data Structures & Algo</span>
+        <span class="company-name">Coding Ninjas</span>
+        </div>
+        <div class="divider">
+          <div class="divider-planner">
+            <i class="fas fa-car-side"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="section-heading mb75">
+        <span><i class="fas fa-briefcase"></i></span>
+        <span>Projects</span>
+      </div>
+      <div class="container portfolio-container mb75">
+        <div class="portfolio-detail">
+          <b>Live Resume</b>
+          <a class="explore" href="#" rel="noopener" target="_blank">Goto Link</a>
+        </div>
+        <div class="portfolio-detail">
+          <b>Energify : do yoga on the go(PC only)</b>
+          <a class="explore" href="https://imsashwat.github.io/Energify/index.html" rel="noopener"
+            target="_blank">Goto Link</a>
+        </div>
+        <div class="portfolio-detail">
+          <b>Csians : One stop solution for students</b>
+          <a class="explore" href="https://imsashwat.github.io/Csians/public/index.html" rel="noopener" target="_blank">Goto Link</a>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-heading mb75">
+        <span><i class="fas fa-user"></i></span>
+        <span>Contact</span>
+      </div>
+      <div class="container contact-container mb-20">
+        <div class="contact-box-one">
+          <form action="" method="GET">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+            <input type="email" name="email" id="email" placeholder="Your Email" />
+            <button type="submit" class="btn">Ping Here</button>
+          </form>
+        </div>
+        <div class="contact-box-two">
+          <span class="touch">Get in touch..!</span>
+          <span><i class="fas fa-home"></i>Delhi</span>
+          <span><i class="fas fa-mobile"></i>8799706936/8130922008</span>
+          <span><i class="fas fa-envelope"></i>star1shashwat@gmail.com</span>
+        </div>
+      </div>
+      <ul class="hr-list center social-list mb-20">
+        <li>
+        <a href="https://medium.com/@star1shashwat" target="_blank"><i class="fab fa-medium"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/imsashwat" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/shashwat-sharma-453468130/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
